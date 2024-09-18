@@ -1,0 +1,106 @@
+[0.046s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--cmake-args', '-DCMAKE_BUILD_TYPE=RelWithDebInfo']
+[0.046s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=28, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=RelWithDebInfo'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7896a794dae0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7896a794d420>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7896a794d420>>, mixin_verb=('build',))
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.108s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yk/ros2_ws/src/ros2_turtlebot_simulator'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.114s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'ros2_turtlebot_simulator'
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.124s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/yk/ros2_ws/install
+[0.124s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 281 installed packages in /opt/ros/iron
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'ros2_turtlebot_simulator' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo']'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'ros2_turtlebot_simulator' build argument 'cmake_target' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'ros2_turtlebot_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'ros2_turtlebot_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'ros2_turtlebot_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'ros2_turtlebot_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'ros2_turtlebot_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'ros2_turtlebot_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.147s] Level 5:colcon.colcon_core.verb:set package 'ros2_turtlebot_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.147s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_turtlebot_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/build/ros2_turtlebot_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator', 'merge_install': False, 'path': '/home/yk/ros2_ws/src/ros2_turtlebot_simulator', 'symlink_install': True, 'test_result_base': None}
+[0.147s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.147s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.147s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yk/ros2_ws/src/ros2_turtlebot_simulator' with build type 'ament_cmake'
+[0.147s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yk/ros2_ws/src/ros2_turtlebot_simulator'
+[0.148s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.148s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.148s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/build/ros2_turtlebot_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/yk/ros2_ws/src/ros2_turtlebot_simulator -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator
+[1.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/build/ros2_turtlebot_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/yk/ros2_ws/src/ros2_turtlebot_simulator -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator
+[1.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/build/ros2_turtlebot_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/yk/ros2_ws/src/ros2_turtlebot_simulator/build/ros2_turtlebot_simulator -- -j28 -l28
+[8.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/build/ros2_turtlebot_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/yk/ros2_ws/src/ros2_turtlebot_simulator/build/ros2_turtlebot_simulator -- -j28 -l28
+[8.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/build/ros2_turtlebot_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/yk/ros2_ws/src/ros2_turtlebot_simulator/build/ros2_turtlebot_simulator
+[8.411s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_turtlebot_simulator)
+[8.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/build/ros2_turtlebot_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/yk/ros2_ws/src/ros2_turtlebot_simulator/build/ros2_turtlebot_simulator
+[8.412s] Level 1:colcon.colcon_core.environment:checking '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator' for CMake module files
+[8.412s] Level 1:colcon.colcon_core.environment:checking '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator' for CMake config files
+[8.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_turtlebot_simulator', 'cmake_prefix_path')
+[8.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/share/ros2_turtlebot_simulator/hook/cmake_prefix_path.ps1'
+[8.413s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/share/ros2_turtlebot_simulator/hook/cmake_prefix_path.dsv'
+[8.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/share/ros2_turtlebot_simulator/hook/cmake_prefix_path.sh'
+[8.413s] Level 1:colcon.colcon_core.environment:checking '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/lib'
+[8.413s] Level 1:colcon.colcon_core.environment:checking '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/bin'
+[8.413s] Level 1:colcon.colcon_core.environment:checking '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/lib/pkgconfig/ros2_turtlebot_simulator.pc'
+[8.414s] Level 1:colcon.colcon_core.environment:checking '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/lib/python3.10/site-packages'
+[8.414s] Level 1:colcon.colcon_core.environment:checking '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/bin'
+[8.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/share/ros2_turtlebot_simulator/package.ps1'
+[8.414s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/share/ros2_turtlebot_simulator/package.dsv'
+[8.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/share/ros2_turtlebot_simulator/package.sh'
+[8.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/share/ros2_turtlebot_simulator/package.bash'
+[8.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/share/ros2_turtlebot_simulator/package.zsh'
+[8.415s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/share/colcon-core/packages/ros2_turtlebot_simulator)
+[8.452s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_turtlebot_simulator)
+[8.453s] Level 1:colcon.colcon_core.environment:checking '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator' for CMake module files
+[8.454s] Level 1:colcon.colcon_core.environment:checking '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator' for CMake config files
+[8.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_turtlebot_simulator', 'cmake_prefix_path')
+[8.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/share/ros2_turtlebot_simulator/hook/cmake_prefix_path.ps1'
+[8.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/share/ros2_turtlebot_simulator/hook/cmake_prefix_path.dsv'
+[8.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/share/ros2_turtlebot_simulator/hook/cmake_prefix_path.sh'
+[8.456s] Level 1:colcon.colcon_core.environment:checking '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/lib'
+[8.456s] Level 1:colcon.colcon_core.environment:checking '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/bin'
+[8.457s] Level 1:colcon.colcon_core.environment:checking '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/lib/pkgconfig/ros2_turtlebot_simulator.pc'
+[8.457s] Level 1:colcon.colcon_core.environment:checking '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/lib/python3.10/site-packages'
+[8.457s] Level 1:colcon.colcon_core.environment:checking '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/bin'
+[8.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/share/ros2_turtlebot_simulator/package.ps1'
+[8.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/share/ros2_turtlebot_simulator/package.dsv'
+[8.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/share/ros2_turtlebot_simulator/package.sh'
+[8.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/share/ros2_turtlebot_simulator/package.bash'
+[8.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/share/ros2_turtlebot_simulator/package.zsh'
+[8.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/ros2_turtlebot_simulator/share/colcon-core/packages/ros2_turtlebot_simulator)
+[8.460s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.461s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.461s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.461s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.467s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.467s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.467s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.478s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.478s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/local_setup.ps1'
+[8.479s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/_local_setup_util_ps1.py'
+[8.480s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/setup.ps1'
+[8.481s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/local_setup.sh'
+[8.481s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/_local_setup_util_sh.py'
+[8.481s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/setup.sh'
+[8.482s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/local_setup.bash'
+[8.482s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/setup.bash'
+[8.483s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/local_setup.zsh'
+[8.483s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yk/ros2_ws/src/ros2_turtlebot_simulator/install/setup.zsh'

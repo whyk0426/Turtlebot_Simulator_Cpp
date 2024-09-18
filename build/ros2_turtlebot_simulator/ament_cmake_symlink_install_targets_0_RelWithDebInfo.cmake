@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/yk/ros2_ws/src/ros2_turtlebot_simulator/build/ros2_turtlebot_simulator/cmd_publisher_node" "TARGETS" "cmd_publisher_node" "DESTINATION" "lib/ros2_turtlebot_simulator")
